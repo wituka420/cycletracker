@@ -1,0 +1,33 @@
+body {
+  margin: 1vh 1vw;
+  background-color: #efe;
+}
+
+fieldset,
+legend {
+  border: 1px solid;
+  background-color: #fff;
+}
+
+ul {
+    border: 1px solid;
+    padding: 0;
+    background-color: #fff;
+}
+
+li {
+    list-style: disc;
+    padding-left: 1em;
+    font-family: monospace;
+    background-color: #cfc;
+}
+
+legend {
+  padding: 0.2em 0.5em;
+  background-color: #cfc;
+}
+
+
+li:nth-of-type(even) {
+  background-color: inherit;
+}
