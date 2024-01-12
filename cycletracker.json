@@ -9,7 +9,7 @@
   "icons": [
         {
       "src": "icons/circle.ico",
-      "sizes": "48x48"
+      "sizes": "256x256"
     },
     {
       "src": "icons/circle.svg",
