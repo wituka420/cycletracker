@@ -6,7 +6,7 @@ const pastPeriodContainer = document.getElementById("past-periods");
 const vibrate = document.getElementById('vibrate')
 
 vibrate.addEventListener('pointerdown', event => {
-  navigator.vibrate(200);
+  navigator.vibrate(1000);
 });
 
 
