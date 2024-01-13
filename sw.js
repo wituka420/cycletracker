@@ -2,6 +2,7 @@ const VERSION = "v1";
 const CACHE_NAME = `period-tracker-${VERSION}`;
 
 const APP_STATIC_RESOURCES = [
+  "/cycletracker/"
   "/cycletracker/index.html",
   "/cycletracker/style.css",
   "/cycletracker/app.js",
@@ -38,7 +39,7 @@ self.addEventListener("fetch", (event) => {
   // when seeking an HTML page
   if (event.request.mode === "navigate") {
     // Return to the index.html page
-    event.respondWith(caches.match("/"));
+    event.respondWith(caches.match("/cycletracker/"));
     return;
   }
 
