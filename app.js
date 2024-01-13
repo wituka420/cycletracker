@@ -28,8 +28,8 @@ newPeriodFormEl.addEventListener("submit", (event) => {
   renderPastPeriods();
 
   // Reset the form.
-  pattern = [100,100,300];
-  navigator.vibrate(pattern);
+  //pattern = [100,100,300];
+  //navigator.vibrate(pattern);
 
   newPeriodFormEl.reset();
 });
@@ -87,15 +87,23 @@ function renderPastPeriods() {
   const periods = getAllStoredPeriods();
 
   // exit if there are no periods
-  if (periods.length === 0) {
-    return;
-  }
+  //if (periods.length === 0) {
+  //  return;
+  //}
 
   // Clear the list of past periods, since we're going to re-render it.
   pastPeriodContainer.innerHTML = "";
 
   const pastPeriodHeader = document.createElement("h2");
-  pastPeriodHeader.textContent = "Past periods";
+  if ("vibrate" in navigator)
+  {
+	    pastPeriodHeader.textContent = "vibrate in navigator";
+
+  }
+  else
+  {
+    pastPeriodHeader.textContent = "vibrate not in navigator";
+  }
 
   const pastPeriodList = document.createElement("ul");
 
