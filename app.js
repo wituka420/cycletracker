@@ -98,6 +98,9 @@ function renderPastPeriods() {
   if ("vibrate" in navigator)
   {
 	    pastPeriodHeader.textContent = "vibrate in navigator";
+		pattern = [100,100,300]
+        navigator.vibrate(pattern)
+
 
   }
   else

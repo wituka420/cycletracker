@@ -1,4 +1,4 @@
-const VERSION = "v1.5";
+const VERSION = "v1.6";
 const CACHE_NAME = `period-tracker-${VERSION}`;
 
 const APP_STATIC_RESOURCES = [
@@ -13,8 +13,6 @@ const APP_STATIC_RESOURCES = [
 ];
 
 
-//pattern = [100,100,300]
-//navigator.vibrate(pattern)
 
 
 
