@@ -1,4 +1,4 @@
-const VERSION = "v1.4";
+const VERSION = "v1.5";
 const CACHE_NAME = `period-tracker-${VERSION}`;
 
 const APP_STATIC_RESOURCES = [
