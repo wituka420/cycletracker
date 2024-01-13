@@ -3,6 +3,12 @@ const newPeriodFormEl = document.getElementsByTagName("form")[0];
 const startDateInputEl = document.getElementById("start-date");
 const endDateInputEl = document.getElementById("end-date");
 const pastPeriodContainer = document.getElementById("past-periods");
+const vibrate = document.getElementById('vibrate')
+
+vibrate.addEventListener('pointerdown', event => {
+  navigator.vibrate(200);
+});
+
 
 
 // Listen to form submissions.
