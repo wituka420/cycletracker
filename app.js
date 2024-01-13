@@ -6,6 +6,7 @@ const pastPeriodContainer = document.getElementById("past-periods");
 const vibrate = document.getElementById('vibrate')
 
 vibrate.addEventListener('pointerdown', event => {
+  alert("I am an alert box!");
   navigator.vibrate(1000);
 });
 
