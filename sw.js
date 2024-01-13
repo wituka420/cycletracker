@@ -9,6 +9,7 @@ const APP_STATIC_RESOURCES = [
   "cycletracker.json",
   "icons/wheel.svg",
   "icons/tire.svg",
+  "icons/circle.ico",
 ];
 
 self.addEventListener("install", (event) => {
