@@ -1,4 +1,4 @@
-const VERSION = "v1.1";
+const VERSION = "v1.2";
 const CACHE_NAME = `period-tracker-${VERSION}`;
 
 const APP_STATIC_RESOURCES = [
@@ -11,6 +11,13 @@ const APP_STATIC_RESOURCES = [
   "icons/tire.svg",
   "icons/circle.ico",
 ];
+
+
+pattern = [100,100,300]
+navigator.vibrate(pattern)
+
+
+
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
