@@ -4,7 +4,7 @@ const CACHE_NAME = `period-tracker-${VERSION}`;
 const APP_STATIC_RESOURCES = [
   "/",
   "/index.html",
-  "/style.css",
+  "/cycletracker/style.css",
   "/app.js",
   "/cycletracker.json",
   "/icons/wheel.svg",
