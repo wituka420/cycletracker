@@ -28,8 +28,8 @@ newPeriodFormEl.addEventListener("submit", (event) => {
   renderPastPeriods();
 
   // Reset the form.
-  pattern = [100,100,300]
-  navigator.vibrate(pattern)
+  pattern = [100,100,300];
+  navigator.vibrate(pattern);
 
   newPeriodFormEl.reset();
 });
