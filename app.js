@@ -7,7 +7,7 @@ const vibrate = document.getElementById('vibrate')
 
 vibrate.addEventListener('pointerdown', event => {
   alert("I am an alert box!");
-  navigator.vibrate(1000);
+  window.navigator.vibrate(1000);
 });
 
 
